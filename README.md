@@ -8,3 +8,4 @@ Install: 'npm install axios' in your terminal.
 'npm start'
 
 Click below for an easy access: 
+https://tuhituhi18.github.io/User-Directory/
