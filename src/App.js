@@ -13,6 +13,20 @@ class App extends Component {
       .then(res => this.setState({ results: res.data.results }))
       .catch(err => console.log(err));
   }
+
+  handleInputChange = event => {
+    const value = event.target.value;
+    const name = event.target.name;
+    this.setState({
+      [name]: value
+    });
+  };
+
+  // When the form is submitted, search the user API for the value of `this.state.search`
+  handleFormSubmit = event => {
+    event.preventDefault();
+    this.searchEmployee(this.state.search);
+  };
   render() {
     return (
       <div>
