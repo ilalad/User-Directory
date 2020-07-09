@@ -32,7 +32,10 @@ class App extends Component {
       <div>
         <HeaderContainer />
         <Search />
-        <Table results={this.state.results} />
+        <Table results={this.state.results}
+          handleFormSubmit={this.handleFormSubmit}
+          handleInputChange={this.handleInputChange}
+        />
       </div >
     );
   }
