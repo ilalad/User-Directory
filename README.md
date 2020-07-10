@@ -10,5 +10,5 @@ run 'npm start'
 
 ![](images/screenshot.png)
 
-Click below for an easy access: 
+Click on the link for an easy access to the application: 
 https://tuhituhi18.github.io/User-Directory/
