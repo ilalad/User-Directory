@@ -6,7 +6,7 @@ function Search(props) {
         <div className="text-center">
             <input
                 onChange={props.handleInputChange}
-                value={props.Search}
+                value={props.search}
                 name="search"
                 type="text"
                 placeholder="Search"
