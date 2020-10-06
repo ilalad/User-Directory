@@ -5,10 +5,10 @@ function Table(props) {
         <table className="table">
             <thead>
                 <tr>
-                    <th>Image</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
+                    <th style={{ color: "gray" }}>Image</th>
+                    <th style={{ color: "gray" }}>Name</th>
+                    <th style={{ color: "gray" }}>Email</th>
+                    <th style={{ color: "gray" }}>Phone</th>
                 </tr>
             </thead>
             <tbody>

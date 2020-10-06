@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import HeaderContainer from "./components/HeaderContainer";
 import Search from "./components/Search";
 import Table from "./components/Table";
-// import Row from "./components/Row";
-// import Col from "./components/Col";
 import API from "./utils/API";
 
 class App extends Component {
